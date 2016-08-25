@@ -1,0 +1,40 @@
+#!/usr/bin/perl
+use warnings;
+use strict;
+
+my @strains = qw(S288c DBVPG6044 DBVPG6765 SK1 Y12 YPS128 UWOPS034614 CBS432 N44 YPS138 UFRJ50816 UWOPS919171);
+
+foreach my $strain (@strains) {
+    system "rm $strain.gff.gz";
+    system "gunzip $strain.all_feature.gff.gz";
+    system "cp $strain.all_feature.gff $strain.all_feature.gff.bk";
+    my $input = "$strain.all_feature.gff.bk";
+    my $input_fh = read_file($input);
+    my $output = "$strain.all_feature.gff";
+    my $output_fh = write_file($output);
+    
+    while (<$input_fh>) {
+	chomp;
+	/^#/ and next;
+	/^\s*$/ and next;
+	my ($chr, $source, $type, $start, $end, $score, $strand, $frame, $annot) = split /\t/, $_;
+	if ($type eq "CEN") {
+	    $type = "centromere";
+	}
+	print $output_fh "$chr\t$source\t$type\t$start\tend\t$score\t$strand\t$frame\t$annot\n";
+    }
+}
+
+sub read_file {
+    my $filename = shift @_;
+    my $fh;
+    open($fh, $filename) or die "cannot open the input file $filename\n";
+    return $fh;
+}
+
+sub write_file {
+    my $filename = shift @_;
+    my $fh;
+    open($fh, ">$filename") or die "cannot open the output file $filename\n";
+    return $fh;
+}
