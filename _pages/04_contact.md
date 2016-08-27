@@ -34,17 +34,38 @@ permalink: /contact/
 
 ## Funding Supports
 
-**Gianni Liti**: Agence Nationale Recherche
-
-**Jia-Xing Yue**: Fondation ARC pour la Recherche sur le Cancer (n°PDF20150602803)
-
 <br>
 
-![ANR_logo]  ![ARC_logo]
+|-|-|-|-|
+|---|---|---|---|
+| ![ANR_logo] | ![ARC_logo] | ![ATIP-Avenir_logo] | ![Canceropole_logo] |
+|---|---|---|---|
+| ![DuPont_logo] | ![LabX_logo] | ![WellcomeTrust_logo] | ![MarieCurie_logo] | 
+{:.imagetablestyle}
 
-[ANR_logo]: {{ site.url }}{{ site.baseurl }}/assets/logo_anr.png "ANR Programme Blanc"
+[ANR_logo]: {{ site.url }}{{ site.baseurl }}/assets/logo_anr.png "Agence Nationale de la Recherche"
 {: height="50px"}
 
-[ARC_logo]: {{ site.url }}{{ site.baseurl }}/assets/logo_arc.png "Fondation ARC pour la Recherche sur le Cancer"
+[ARC_logo]: {{ site.url }}{{ site.baseurl }}/assets/logo_arc.jpg "Fondation ARC pour la Recherche sur le Cancer"
 {: height="50px"}
+
+[ATIP-Avenir_logo]: {{ site.url }}{{ site.baseurl }}/assets/logo_atip-avenir.jpg "CNRS/Inserm:ATIP-AVENIR"
+{: height="50px"}
+
+[Canceropole_logo]: {{ site.url }}{{ site.baseurl }}/assets/logo_canceropole.jpg "Cancéropôle PACA"
+{: height="50px"}
+
+[DuPont_logo]: {{ site.url }}{{ site.baseurl }}/assets/logo_dupont.png "DuPont Young Professor Award"
+{: height="50px"}
+
+[LabX_logo]: {{ site.url }}{{ site.baseurl }}/assets/logo_singallife.jpg "Labex SIGNALIFE"
+{: height="50px"}
+
+[MarieCurie_logo]: {{ site.url }}{{ site.baseurl }}/assets/logo_mariecurie.jpg "Marie Curie Career Integration Grants"
+{: height="50px"}
+
+[WellcomeTrust_logo]: {{ site.url }}{{ site.baseurl }}/assets/logo_wellcometrust.jpg "Wellcome Trust"
+{: height="50px"}
+
+
 

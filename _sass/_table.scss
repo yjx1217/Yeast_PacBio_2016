@@ -35,3 +35,12 @@ tr, td, th {
   vertical-align: middle;
   }
 
+
+// alternative styles
+.imagetablestyle {
+		 border-collapse: collapse;
+   > table, td, th  {
+     border: 1px solid #fdfdfd;
+     background-color: #fdfdfd;
+     }
+     }
