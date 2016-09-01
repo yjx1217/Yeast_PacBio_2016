@@ -5,5 +5,5 @@ date:   2016-08-24 19:53:49 +0200
 categories: update
 ---
 
-We are about to submit our manuscript on this project soon. Therefore we set up this website to provide general description and data release for this project. We feel the high-quality genome assemblies and annotations that we generated during this study will be of great interests to the yeast community. We want to share this valuable dataset for the community to facilitate future genomic and functional studies on *Saccharomyces cerevisiae* and its wild relative *Saccharomyces paradoxus*. 
+We set up this website to provide general description and data release for the Yeast PacBio Sequencing project. In this project, we sequenced 12 strains representing major subpopulations of two close-related *Saccharomyces* yeast species: *S. cerevisiae* and *S. paradoxus*. We feel the high-quality genome assemblies and annotations that we generated in this study will be of great interests to the yeast community. We want to share this valuable dataset to the community to facilitate future genomic and functional investigations on this important model organisms. The research paper for this study will be submitted soon. 
 
