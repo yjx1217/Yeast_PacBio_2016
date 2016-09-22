@@ -32,15 +32,15 @@ Here, we provide all the assembly, annotation, CDSs, and proteome files as follo
 |:-:|:-:|:-:|:-:|:-:|:-:
 |*S.c.*|UWOPS03-461.4|[GENOME][25]|[GFF][26]|[CDS][27]|[PEP][28]
 |:-:|:-:|:-:|:-:|:-:|:-:
-|*S.c.*|CBS432|[GENOME][29]|[GFF][30]|[CDS][31]|[PEP][32]
+|*S.p.*|CBS432|[GENOME][29]|[GFF][30]|[CDS][31]|[PEP][32]
 |:-:|:-:|:-:|:-:|:-:|:-:
-|*S.c.*|N44|[GENOME][33]|[GFF][34]|[CDS][35]|[PEP][36]
+|*S.p.*|N44|[GENOME][33]|[GFF][34]|[CDS][35]|[PEP][36]
 |:-:|:-:|:-:|:-:|:-:|:-:
-|*S.c.*|YPS138|[GENOME][37]|[GFF][38]|[CDS][39]|[PEP][40]
+|*S.p.*|YPS138|[GENOME][37]|[GFF][38]|[CDS][39]|[PEP][40]
 |:-:|:-:|:-:|:-:|:-:|:-:
-|*S.c.*|UFRJ50816|[GENOME][41]|[GFF][42]|[CDS][43]|[PEP][44]
+|*S.p.*|UFRJ50816|[GENOME][41]|[GFF][42]|[CDS][43]|[PEP][44]
 |:-:|:-:|:-:|:-:|:-:|:-:
-|*S.c.*|UWOPS91-917.1|[GENOME][45]|[GFF][46]|[CDS][47]|[PEP][48]
+|*S.p.*|UWOPS91-917.1|[GENOME][45]|[GFF][46]|[CDS][47]|[PEP][48]
 |---
 
 <br><br>
@@ -64,15 +64,15 @@ Here, we provide all the assembly, annotation, CDSs, and proteome files as follo
 |:-:|:-:|:-:|:-:|:-:|:-:
 |*S.c.*|UWOPS03-461.4|[GENOME][73]|[GFF][74]|[CDS][75]|[PEP][76]
 |:-:|:-:|:-:|:-:|:-:|:-:
-|*S.c.*|CBS432|[GENOME][77]|[GFF][78]|[CDS][79]|[PEP][80]
+|*S.p.*|CBS432|[GENOME][77]|[GFF][78]|[CDS][79]|[PEP][80]
 |:-:|:-:|:-:|:-:|:-:|:-:
-|*S.c.*|N44|[GENOME][81]|[GFF][82]|[CDS][83]|[PEP][84]
+|*S.p.*|N44|[GENOME][81]|[GFF][82]|[CDS][83]|[PEP][84]
 |:-:|:-:|:-:|:-:|:-:|:-:
-|*S.c.*|YPS138|[GENOME][85]|[GFF][86]|[CDS][87]|[PEP][88]
+|*S.p.*|YPS138|[GENOME][85]|[GFF][86]|[CDS][87]|[PEP][88]
 |:-:|:-:|:-:|:-:|:-:|:-:
-|*S.c.*|UFRJ50816|[GENOME][89]|[GFF][90]|[CDS][91]|[PEP][92]
+|*S.p.*|UFRJ50816|[GENOME][89]|[GFF][90]|[CDS][91]|[PEP][92]
 |:-:|:-:|:-:|:-:|:-:|:-:
-|*S.c.*|UWOPS91-917.1|[GENOME][93]|[GFF][94]|[CDS][95]|[PEP][96]
+|*S.p.*|UWOPS91-917.1|[GENOME][93]|[GFF][94]|[CDS][95]|[PEP][96]
 |---
 
 
