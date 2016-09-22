@@ -26,4 +26,9 @@ permalink: /welcome/
 </div>
 
 
+Visitor Status
+
+
+<a href="http://www.clustrmaps.com/map/Yjx1217.github.io/Yeast_PacBio_2016/welcome/" title="Visit tracker for Yjx1217.github.io/Yeast_PacBio_2016/welcome/"><img src="//www.clustrmaps.com/map_v2.png?u=RO8M&d=Z9QtnG6570n6G66XK09RXBchjpHRds0ZQ3ByHgiRd_I" /></a>
+
 [phylogeny of sampled strains]: {{ site.url }}{{ site.baseurl }}/assets/phylogeny_for_website.png "The phylogeny of the 12 sampled strains"
