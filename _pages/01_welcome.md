@@ -29,7 +29,8 @@ permalink: /welcome/
 
 
 <h2 class="page-heading">Visitor Count</h2>
-<script type="text/javascript" src="//ra.revolvermaps.com/0/0/1.js?i=0o2pisuhuo4&amp;s=220&amp;m=8&amp;v=true&amp;r=false&amp;b=000000&amp;n=false&amp;c=ff0000" async="async"></script>
+<script type="text/javascript" src="//ra.revolvermaps.com/0/0/1.js?i=02yhkul0dzj&amp;s=220&amp;m=6&amp;v=true&amp;r=false&amp;b=000000&amp;n=false&amp;c=ff0000" async="async"></script>
+
 
 
 
