@@ -5,8 +5,11 @@ permalink: /data/
 ---
 
 The genomes were sequenced by ~100-200x PacBio sequencing reads and assembled using standard HGAP pipeline with Quiver polishing. We also performed ~200-500x Illumina paired-end sequencing to further correct remaining sequencing errors by Pilon. After manual curation, the final assemblies reached chromsome-equivalent completeness for both nuclear and mitochondrial genomes. Based on each assembly, we conducted full-fledged annotation for various genomic features, such as centromeres, protein-coding genes, tRNAs, Ty retrotransposable elements, core X-elements, Y'-elements and mitochondrial RNAs.
+{: .text-justify}
+
 
 Here, we provide all the assembly, annotation, CDSs, and proteome files as follows. The assembly, CDSs, and proteome files are in FASTA format. The annotation files are in GFF format. All files were further compressed using gzip. After downloading these files, you can use the command "gunzip *.gz" to uncompress these files.
+{: .text-justify}
 
 <br>
 
