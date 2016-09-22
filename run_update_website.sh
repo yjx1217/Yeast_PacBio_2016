@@ -1,5 +1,5 @@
 git status
 git add -A
-git commit -am "justify align project summary"
+git commit -am "justify align welcome page"
 git push origin gh-pages
  
