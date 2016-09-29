@@ -1,5 +1,5 @@
 git status
 git add -A
-git commit -am "update bioRxiv access info"
+git commit -am "update funding info"
 git push origin gh-pages
  
