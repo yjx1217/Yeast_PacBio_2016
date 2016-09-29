@@ -37,6 +37,7 @@ permalink: /contact/
 <br>
 
 ![funding]
+
 [funding]: {{ site.url }}{{ site.baseurl }}/assets/funding.png 
 
 
