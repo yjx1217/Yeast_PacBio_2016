@@ -1,5 +1,5 @@
 git status
 git add -A
-git commit -am "move old page_04"
+git commit -am "updated site description"
 git push origin gh-pages
  
