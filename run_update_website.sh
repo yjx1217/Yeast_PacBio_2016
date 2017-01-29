@@ -1,5 +1,5 @@
 git status
 git add -A
-git commit -am "updated site description"
+git commit -am "important data update"
 git push origin gh-pages
  

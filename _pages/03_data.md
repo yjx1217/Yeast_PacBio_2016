@@ -4,6 +4,13 @@ title: Data
 permalink: /data/
 ---
 
+\[Last update: Sun Jan 29 22:04:59 CST 2017\]
+**IMPORTANT: Minor improvements were made for both assemblies and annotations. If you download the assembly and annotation files before our last update date, please use the new data to replace the old ones for your analysis.**
+{: .text-justify}
+
+<br>
+
+
 The genomes were sequenced by ~100-200x PacBio sequencing reads and assembled using standard HGAP pipeline with Quiver polishing. We also performed ~200-500x Illumina paired-end sequencing to further correct remaining sequencing errors by Pilon. After manual curation, the final assemblies reached chromsome-equivalent completeness for both nuclear and mitochondrial genomes. Based on each assembly, we conducted full-fledged annotation for various genomic features, such as centromeres, protein-coding genes, tRNAs, Ty retrotransposable elements, core X-elements, Y'-elements and mitochondrial RNAs.
 {: .text-justify}
 
@@ -74,6 +81,31 @@ Here, we provide all the assembly, annotation, CDSs, and proteome files as follo
 |:-:|:-:|:-:|:-:|:-:|:-:
 |*S.p.*|UWOPS91-917.1|[GENOME][93]|[GFF][94]|[CDS][95]|[PEP][96]
 |---
+
+<br>
+In addition, we updated the gene annotation for Saccharomyces arboricolus (strain H6) that was sequenced and annotated a few years ago (Liti et al. 2013).
+{: .text-justify}
+
+|---
+|Species|Strain|Assembly|Annotation|CDSs|Proteome
+|:-:|:-:|:-:|:-:|:-:|:-:
+|*S.a.*|H6|[GENOME][97]|[GFF][98]|[CDS][99]|[PEP][100]
+|---
+
+<br>
+
+Finally, we further hosted all the supplementary data sets generated in this study for the public.
+
+<br>
+
+Supplementary Data Set 1: Orthologous gene groups in the nuclear genome across the 12 strains and the six outgroups. [101]
+Supplementary Data Set 2: Genomic coordinates for subtelomeres identified in the 12 strains. [102]
+Supplementary Data Set 3. Genomic features enclosed in subtelomeres and chromosome-ends. [103]
+Supplementary Data Set 4. Balanced rearrangement events identified in the 12 strains. [104]
+Supplementary Data Set 5. Unbalanced rearrangement events identified in the 12 strains. [105]
+Supplementary Data Set 6. Subtelomeric duplication blocks identified in the 12 strains. [106]
+Supplementary Data Set 7. Strain-sharing patterns of duplicated subtelomere pairs. [107]
+Supplementary Data Set 8. The hidden Markov model (hmm) built for the yeast core X-element. [108]
 
 
 [1]: {{ site.url }}{{ site.baseurl }}/data/Nuclear_Genome/S288c.genome.fa.gz
@@ -172,4 +204,16 @@ Here, we provide all the assembly, annotation, CDSs, and proteome files as follo
 [94]: {{ site.url }}{{ site.baseurl }}/data/Mitochondrial_GFF/UWOPS919171.mt.all_feature.gff.gz
 [95]: {{ site.url }}{{ site.baseurl }}/data/Mitochondrial_CDS/UWOPS919171.mt.cds.fa.gz
 [96]: {{ site.url }}{{ site.baseurl }}/data/Mitochondrial_PEP/UWOPS919171.mt.pep.fa.gz
+[97]: {{ site.url }}{{ site.baseurl }}/data/Sarb_ReAnnotation/Sarb.genome.fa.gz
+[98]: {{ site.url }}{{ site.baseurl }}/data/Sarb_ReAnnotation/Sarb.all_feature.gff.gz
+[99]: {{ site.url }}{{ site.baseurl }}/data/Sarb_ReAnnotation/Sarb.cds.fa.gz
+[100]: {{ site.url }}{{ site.baseurl }}/data/Sarb_ReAnnotation/Sarb.pep.fa.gz
+[101]: {{ site.url }}{{ site.baseurl }}/data/Supplementary_Data_Sets/Supplementary_Data_Set_1.txt
+[102]: {{ site.url }}{{ site.baseurl }}/data/Supplementary_Data_Sets/Supplementary_Data_Set_2.xlsx
+[103]: {{ site.url }}{{ site.baseurl }}/data/Supplementary_Data_Sets/Supplementary_Data_Set_3.xlsx
+[104]: {{ site.url }}{{ site.baseurl }}/data/Supplementary_Data_Sets/Supplementary_Data_Set_4.xlsx
+[105]: {{ site.url }}{{ site.baseurl }}/data/Supplementary_Data_Sets/Supplementary_Data_Set_5.xlsx
+[106]: {{ site.url }}{{ site.baseurl }}/data/Supplementary_Data_Sets/Supplementary_Data_Set_6.xlsx
+[107]: {{ site.url }}{{ site.baseurl }}/data/Supplementary_Data_Sets/Supplementary_Data_Set_7.xlsx
+[108]: {{ site.url }}{{ site.baseurl }}/data/Supplementary_Data_Sets/Supplementary_Data_Set_8.hmm
 
