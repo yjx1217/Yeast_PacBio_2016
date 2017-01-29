@@ -6,4 +6,4 @@ categories: update
 ---
 
 Please note that we made minor updates for both the assembly and annotation data today. If you download our data files before, please use the new data to replace the old ones for your analysis. 
-
+{: .text-justify}

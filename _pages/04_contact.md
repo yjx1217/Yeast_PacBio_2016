@@ -20,10 +20,10 @@ permalink: /contact/
 <br>
 
 ## Affliations
-1. Institute for Research on Cancer and Aging, Nice (IRCAN), CNRS UMR 7284, INSERM U1081, University of Nice Sophia Antipolis, Nice, France.
+1. 1Université Côte d'Azur, CNRS, INSERM, IRCAN, Nice, France.
 2. Wellcome Trust Sanger Institute, Hinxton, Cambridge CB10 1SA, United Kingdom.
-3. Department of Chemistry and Molecular Biology, Gothenburg University, Gothenburg 40530, Sweden
-4. Sorbonne Universités, UPMC Univ. Paris 06, CNRS, Institut de Biologie Paris-Seine, Laboratory of Computational and Quantitative Biology, F-75005, Paris, France
+3. Department of Chemistry and Molecular Biology, Gothenburg University, Gothenburg 40530, Sweden.
+4. Sorbonne Universités, UPMC Univ. Paris 06, CNRS, Institut de Biologie Paris-Seine, Laboratory of Computational and Quantitative Biology, F-75005, Paris, France.
 
 <br>
 ![affliation]
