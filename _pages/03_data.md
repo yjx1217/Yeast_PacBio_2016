@@ -84,7 +84,7 @@ Here, we provide all the assembly, annotation, CDSs, and proteome files as follo
 |---
 
 <br>
-In addition, we updated the gene annotation for Saccharomyces arboricolus (strain H6) that was sequenced and annotated a few years ago (Liti et al. 2013).
+In addition, we updated the gene annotation for Saccharomyces arboricolus (strain H6) that was sequenced and annotated a few years ago (Liti et al. BMC Genomics, 2013).
 {: .text-justify}
 
 |---
@@ -99,14 +99,14 @@ Finally, we further hosted all the supplementary data sets generated in this stu
 
 <br>
 
-* [Supplementary Data Set 1]: Orthologous gene groups in the nuclear genome across the 12 strains and the six outgroups. [101]
-* [Supplementary Data Set 2]: Genomic coordinates for subtelomeres identified in the 12 strains. [102]
-* [Supplementary Data Set 3]: Genomic features enclosed in subtelomeres and chromosome-ends. [103]
-* [Supplementary Data Set 4]: Balanced rearrangement events identified in the 12 strains. [104]
-* [Supplementary Data Set 5]: Unbalanced rearrangement events identified in the 12 strains. [105]
-* [Supplementary Data Set 6]: Subtelomeric duplication blocks identified in the 12 strains. [106]
-* [Supplementary Data Set 7]: Strain-sharing patterns of duplicated subtelomere pairs. [107]
-* [Supplementary Data Set 8]: The hidden Markov model (hmm) built for the yeast core X-element. [108]
+* [Supplementary Data Set 1][101]: Orthologous gene groups in the nuclear genome across the 12 strains and the six outgroups. 
+* [Supplementary Data Set 2][102]: Genomic coordinates for subtelomeres identified in the 12 strains. 
+* [Supplementary Data Set 3][103]: Genomic features enclosed in subtelomeres and chromosome-ends. 
+* [Supplementary Data Set 4][104]: Balanced rearrangement events identified in the 12 strains.
+* [Supplementary Data Set 5][105]: Unbalanced rearrangement events identified in the 12 strains.
+* [Supplementary Data Set 6][106]: Subtelomeric duplication blocks identified in the 12 strains. 
+* [Supplementary Data Set 7][107]: Strain-sharing patterns of duplicated subtelomere pairs.
+* [Supplementary Data Set 8][108]: The hidden Markov model (hmm) built for the yeast core X-element.
 
 
 [1]: {{ site.url }}{{ site.baseurl }}/data/Nuclear_Genome/S288c.genome.fa.gz
