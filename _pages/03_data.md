@@ -87,6 +87,7 @@ Here, we provide all the assembly, annotation, CDSs, and proteome files as follo
 
 # Other Useful Data
 
+
 In addition, we updated the gene annotation for *Saccharomyces arboricolus* (strain H6) that was sequenced and annotated a few years ago (Liti et al. BMC Genomics, 2013).
 {: .text-justify}
 
@@ -99,8 +100,6 @@ In addition, we updated the gene annotation for *Saccharomyces arboricolus* (str
 <br>
 
 Finally, we further hosted all the supplementary data sets generated in this study for the public.
-
-<br>
 
 * [Supplementary Data Set 1][101]: Orthologous gene groups in the nuclear genome across the 12 strains and the six outgroups. 
 * [Supplementary Data Set 2][102]: Genomic coordinates for subtelomeres identified in the 12 strains. 
