@@ -35,8 +35,8 @@ permalink: /contact/
 ## Funding Supports
 
 <br>
-![finding]
+![funding]
 
-[finding]: {{ site.url }}{{ site.baseurl }}/assets/finding.png
+[funding]: {{ site.url }}{{ site.baseurl }}/assets/funding.png
 
 
