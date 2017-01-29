@@ -84,6 +84,7 @@ Here, we provide all the assembly, annotation, CDSs, and proteome files as follo
 |---
 
 <br><br>
+
 # Other Useful Data
 
 In addition, we updated the gene annotation for *Saccharomyces arboricolus* (strain H6) that was sequenced and annotated a few years ago (Liti et al. BMC Genomics, 2013).
