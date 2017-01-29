@@ -206,7 +206,7 @@ Finally, we further hosted all the supplementary data sets generated in this stu
 [95]: {{ site.url }}{{ site.baseurl }}/data/Mitochondrial_CDS/UWOPS919171.mt.cds.fa.gz
 [96]: {{ site.url }}{{ site.baseurl }}/data/Mitochondrial_PEP/UWOPS919171.mt.pep.fa.gz
 [97]: {{ site.url }}{{ site.baseurl }}/data/Sarb_ReAnnotation/Sarb.genome.fa.gz
-[98]: {{ site.url }}{{ site.baseurl }}/data/Sarb_ReAnnotation/Sarb.all_feature.gff.gz
+[98]: {{ site.url }}{{ site.baseurl }}/data/Sarb_ReAnnotation/Sarb.protein_coding_gene.gff.gz
 [99]: {{ site.url }}{{ site.baseurl }}/data/Sarb_ReAnnotation/Sarb.cds.fa.gz
 [100]: {{ site.url }}{{ site.baseurl }}/data/Sarb_ReAnnotation/Sarb.pep.fa.gz
 [101]: {{ site.url }}{{ site.baseurl }}/data/Supplementary_Data_Sets/Supplementary_Data_Set_1.txt
