@@ -26,7 +26,7 @@ Here, we provide all the assembly, annotation, CDSs, and proteome files as follo
 |---
 |Species|Strain|Assembly|Annotation|CDSs|Proteome
 |:-:|:-:|:-:|:-:|:-:|:-:
-|*S.c.*|S288c|[GENOME][1]|[GFF][2]|[CDS][3]|[PEP][4]
+|*S.c.*|S288C|[GENOME][1]|[GFF][2]|[CDS][3]|[PEP][4]
 |:-:|:-:|:-:|:-:|:-:|:-:
 |*S.c.*|DBVPG6044|[GENOME][5]|[GFF][6]|[CDS][7]|[PEP][8]
 |:-:|:-:|:-:|:-:|:-:|:-:
@@ -58,7 +58,7 @@ Here, we provide all the assembly, annotation, CDSs, and proteome files as follo
 |---
 |Species|Strain|Assembly|Annotation|CDSs|Proteome
 |:-:|:-:|:-:|:-:|:-:|:-:
-|*S.c.*|S288c|[GENOME][49]|[GFF][50]|[CDS][51]|[PEP][52]
+|*S.c.*|S288C|[GENOME][49]|[GFF][50]|[CDS][51]|[PEP][52]
 |:-:|:-:|:-:|:-:|:-:|:-:
 |*S.c.*|DBVPG6044|[GENOME][53]|[GFF][54]|[CDS][55]|[PEP][56]
 |:-:|:-:|:-:|:-:|:-:|:-:
