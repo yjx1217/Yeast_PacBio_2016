@@ -102,14 +102,13 @@ In addition, we updated the gene annotation for *Saccharomyces arboricolus* (str
 Finally, we further hosted all the supplementary data sets generated in this study for the public.
 
 * [Supplementary Data Set 1][101]: One-to-one nuclear orthologs across the 12 strains and the six outgroups.
-* [Supplementary Data Set 2][102]: Genomic coordinates for subtelomeres identified in the 12 strains. 
-* [Supplementary Data Set 3][103]: Genomic features enclosed in subtelomeres and chromosome-ends. 
-* [Supplementary Data Set 4][104]: Balanced rearrangement events identified in the 12 strains. 
-* [Supplementary Data Set 5][105]: Unbalanced rearrangement events identified in the 12 strains. 
-* [Supplementary Data Set 6][106]: Subtelomeric duplication blocks identified in the 12 strains. 
+* [Supplementary Data Set 2][102]: Genomic coordinates for subtelomeres identified in the 12 strains.
+* [Supplementary Data Set 3][103]: Genomic features enclosed in subtelomeres and chromosome-ends.
+* [Supplementary Data Set 4][104]: Balanced rearrangement events identified in the 12 strains.
+* [Supplementary Data Set 5][105]: Unbalanced rearrangement events identified in the 12 strains.
+* [Supplementary Data Set 6][106]: Subtelomeric duplication blocks identified in the 12 strains.
 * [Supplementary Data Set 7][107]: Strain-sharing patterns of duplicated subtelomere pairs.
 * [Supplementary Data Set 8][108]: The hidden Markov model (hmm) built for the yeast core X-element. 
-
 
 [1]: {{ site.url }}{{ site.baseurl }}/data/Nuclear_Genome/S288c.genome.fa.gz
 [2]: {{ site.url }}{{ site.baseurl }}/data/Nuclear_GFF/S288c.all_feature.gff.gz
