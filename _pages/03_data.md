@@ -100,7 +100,7 @@ In addition, we updated the gene annotation for *Saccharomyces arboricolus* (str
 <br>
 
 Finally, we further hosted all the supplementary data sets generated in this study for the public.
-* [Supplementary Data Set 1][101]: Orthologous gene groups in the nuclear genome across the 12 strains and the six outgroups. 
+* [Supplementary Data Set 1][101]: One-to-one nuclear orthologs across the 12 strains and the six outgroups. 
 * [Supplementary Data Set 2][102]: Genomic coordinates for subtelomeres identified in the 12 strains. 
 * [Supplementary Data Set 3][103]: Genomic features enclosed in subtelomeres and chromosome-ends. 
 * [Supplementary Data Set 4][104]: Balanced rearrangement events identified in the 12 strains.
@@ -210,7 +210,7 @@ Finally, we further hosted all the supplementary data sets generated in this stu
 [98]: {{ site.url }}{{ site.baseurl }}/data/Sarb_ReAnnotation/Sarb.protein_coding_gene.gff.gz
 [99]: {{ site.url }}{{ site.baseurl }}/data/Sarb_ReAnnotation/Sarb.cds.fa.gz
 [100]: {{ site.url }}{{ site.baseurl }}/data/Sarb_ReAnnotation/Sarb.pep.fa.gz
-[101]: {{ site.url }}{{ site.baseurl }}/data/Supplementary_Data_Sets/Supplementary_Data_Set_1.txt
+[101]: {{ site.url }}{{ site.baseurl }}/data/Supplementary_Data_Sets/Supplementary_Data_Set_1.tsv
 [102]: {{ site.url }}{{ site.baseurl }}/data/Supplementary_Data_Sets/Supplementary_Data_Set_2.xlsx
 [103]: {{ site.url }}{{ site.baseurl }}/data/Supplementary_Data_Sets/Supplementary_Data_Set_3.xlsx
 [104]: {{ site.url }}{{ site.baseurl }}/data/Supplementary_Data_Sets/Supplementary_Data_Set_4.xlsx
