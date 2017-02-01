@@ -101,7 +101,7 @@ In addition, we updated the gene annotation for *Saccharomyces arboricolus* (str
 
 Finally, we further hosted all the supplementary data sets generated in this study for the public.
 
-* [Supplementary Data Set 1][101]: One-to-one nuclear orthologs across the 12 strains and the six outgroups.
+* [Supplementary Data Set 1][101]: One-to-one nuclear orthologous gene groups across the 12 strains and the six outgroups.
 * [Supplementary Data Set 2][102]: Genomic coordinates for subtelomeres identified in the 12 strains.
 * [Supplementary Data Set 3][103]: Genomic features enclosed in subtelomeres and chromosome-ends.
 * [Supplementary Data Set 4][104]: Balanced rearrangement events identified in the 12 strains.
@@ -109,6 +109,14 @@ Finally, we further hosted all the supplementary data sets generated in this stu
 * [Supplementary Data Set 6][106]: Subtelomeric duplication blocks identified in the 12 strains.
 * [Supplementary Data Set 7][107]: Strain-sharing patterns of duplicated subtelomere pairs.
 * [Supplementary Data Set 8][108]: The hidden Markov model (hmm) built for the yeast core X-element. 
+
+<br>
+
+# Raw Reads Accession
+
+The PacBio sequencing reads for this project has been deposed in the European Nucleotide Archive (ENA) under project PRJEB7245. The strain to read mapping information is provided [here][109].
+The Illumina sequencing reads for this project has been deposed in the Short Reads Archive (SRA) under project PRJNA340312. 
+
 
 [1]: {{ site.url }}{{ site.baseurl }}/data/Nuclear_Genome/S288c.genome.fa.gz
 [2]: {{ site.url }}{{ site.baseurl }}/data/Nuclear_GFF/S288c.all_feature.gff.gz
@@ -218,4 +226,4 @@ Finally, we further hosted all the supplementary data sets generated in this stu
 [106]: {{ site.url }}{{ site.baseurl }}/data/Supplementary_Data_Sets/Supplementary_Data_Set_6.xlsx
 [107]: {{ site.url }}{{ site.baseurl }}/data/Supplementary_Data_Sets/Supplementary_Data_Set_7.xlsx
 [108]: {{ site.url }}{{ site.baseurl }}/data/Supplementary_Data_Sets/Supplementary_Data_Set_8.hmm
-
+[109]: {{ site.url }}{{ site.baseurl }}/data/Supplementary_Data_Sets/PRJEB7245_strain_read_mapping.xlsx
