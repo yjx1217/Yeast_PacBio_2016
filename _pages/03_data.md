@@ -114,8 +114,8 @@ Finally, we further hosted all the supplementary data sets generated in this stu
 
 # Raw Reads Accession
 
-The PacBio sequencing reads for this project has been deposed in the European Nucleotide Archive (ENA) under project PRJEB7245. The strain to read mapping information is provided [here][109].
-The Illumina sequencing reads for this project has been deposed in the Short Reads Archive (SRA) under project PRJNA340312. 
+The PacBio sequencing reads for this project has been deposed in the European Nucleotide Archive (ENA) under project [PRJEB7245][http://www.ebi.ac.uk/ena/data/view/PRJEB7245]. The strain to read mapping information is provided [here][109].
+The Illumina sequencing reads for this project has been deposed in the Short Reads Archive (SRA) under project [PRJNA340312][https://www.ncbi.nlm.nih.gov/bioproject/340312]. 
 
 
 [1]: {{ site.url }}{{ site.baseurl }}/data/Nuclear_Genome/S288c.genome.fa.gz
