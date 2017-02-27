@@ -1,5 +1,5 @@
 git status
 git add -A
-git commit -am "fix two missing CDS/exon index in CBS432"
+git commit -am "webpage bug fix"
 git push origin gh-pages
  
