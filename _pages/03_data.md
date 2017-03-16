@@ -6,7 +6,10 @@ permalink: /data/
 
 \[Last update: Thu Mar 16 06:17:38 CET 2017\]
 
-**IMPORTANT: Minor improvements for the nuclear genome assemblies and annotations were performed on Sun Jan 29 22:04:59 CST 2017; The mitochondrial genome assemblies and annotations of *S. paradoxus* UFRJ50816 and UWOPS91-917.1 were updated on Thu Mar 16 06:17:38 CET 2017. If you have downloaded the corresponding data before our last update, please use the new data for your analysis.**
+**IMPORTANT:
+Minor improvements for the nuclear genome assemblies and annotations were performed on Sun Jan 29 22:04:59 CST 2017.
+The mitochondrial genome assemblies and annotations of *S. paradoxus* UFRJ50816 and UWOPS91-917.1 were updated on Thu Mar 16 06:17:38 CET 2017.
+If you have downloaded the corresponding data before our last update, please use the new data for your analysis.**
 {: .text-justify}
 
 <br>
