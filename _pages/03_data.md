@@ -4,15 +4,15 @@ title: Data
 permalink: /data/
 ---
 
-\[Last update: Sun Jan 29 22:04:59 CST 2017\]
+\[Last update: Thu Mar 16 06:17:38 CET 2017\]
 
-**IMPORTANT: Minor improvements were made for both assemblies and annotations. If you have downloaded the assembly and annotation files before our last update, please use the new data to replace the old ones for your analysis.**
+**IMPORTANT: Minor improvements for the nuclear genome assemblies and annotations were performed on Sun Jan 29 22:04:59 CST 2017; The mitochondrial genome assemblies and annotations of *S. paradoxus* UFRJ50816 and UWOPS91-917.1 were updated on Thu Mar 16 06:17:38 CET 2017. If you have downloaded the corresponding data before our last update, please use the new data for your analysis.**
 {: .text-justify}
 
 <br>
 
 
-The genomes were sequenced by ~100-200x PacBio sequencing reads and assembled using standard HGAP pipeline with Quiver polishing. We also performed ~200-500x Illumina paired-end sequencing to further correct remaining sequencing errors by Pilon. After manual curation, the final assemblies reached chromsome-equivalent completeness for both nuclear and mitochondrial genomes. Based on each assembly, we conducted full-fledged annotation for various genomic features, such as centromeres, protein-coding genes, tRNAs, Ty retrotransposable elements, core X-elements, Y'-elements and mitochondrial RNAs.
+The genomes were sequenced by ~100-200x PacBio sequencing reads and assembled using standard HGAP pipeline with Quiver polishing. We also performed ~200-500x Illumina paired-end sequencing to further correct remaining sequencing errors by Pilon. After manual curation, the final assemblies reached chromsome-equivalent completeness for both nuclear and mitochondrial genomes. Based on each assembly, we conducted full-fledged annotation for various genomic features, such as centromeres, protein-coding genes, tRNAs, Ty retrotransposable elements, core X-elements, Y'-elements and mitochondrial RNA genes.
 {: .text-justify}
 
 
@@ -97,6 +97,10 @@ In addition, we updated the gene annotation for *Saccharomyces arboricolus* (str
 |*S.a.*|H6|[GENOME][97]|[GFF][98]|[CDS][99]|[PEP][100]
 |---
 
+We also provide the hidden Markov model (hmm) that we built for the yeast core X-element in case anyone is interested.
+* [core_X.hmm][108]
+
+
 <br>
 
 Finally, we further hosted all the supplementary data sets generated in this study for the public.
@@ -108,7 +112,7 @@ Finally, we further hosted all the supplementary data sets generated in this stu
 * [Supplementary Data Set 5][105]: Unbalanced rearrangement events identified in the 12 strains.
 * [Supplementary Data Set 6][106]: Subtelomeric duplication blocks identified in the 12 strains.
 * [Supplementary Data Set 7][107]: Strain-sharing patterns of duplicated subtelomere pairs.
-* [Supplementary Data Set 8][108]: The hidden Markov model (hmm) built for the yeast core X-element. 
+
 
 <br>
 
