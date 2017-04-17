@@ -6,5 +6,7 @@ categories: update
 ---
 
 Our paper is officially out!
+
+
 [Contrasting evolutionary genome dynamics between domesticated and wild yeasts](https://www.nature.com/ng/journal/vaop/ncurrent/full/ng.3847.html)
 {: .text-justify}
