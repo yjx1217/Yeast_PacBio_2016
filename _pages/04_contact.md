@@ -12,7 +12,7 @@ permalink: /contact/
 
 [Jia-Xing Yue]: https://www.iamphioxus.org
 [Jonas Warringer]: http://cmb.gu.se/english/about_us/staff?languageId=100001&userId=xwarrj
-[Marco Consentino Lagomarsino]: http://www.lgm.upmc.fr/mcl/index.html
+[Marco Cosentino Lagomarsino]: http://www.lgm.upmc.fr/mcl/index.html
 [Gilles Fischer]: http://www.lgm.upmc.fr/BIG
 [Richard Durbin]: http://www.sanger.ac.uk/science/groups/durbin-group
 [Gianni Liti]: http://www.ircan.org/index.php?option=com_content&view=article&id=72&Itemid=98
