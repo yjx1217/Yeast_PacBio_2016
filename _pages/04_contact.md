@@ -6,7 +6,7 @@ permalink: /contact/
 <br>
 
 ## Authors
-[Jia-Xing Yue]<sup>1</sup>, Jing Li<sup>1</sup>, Louise Aigrain<sup>2</sup>, Johan Hallin<sup>1</sup>, Karl Persson<sup>3</sup>, Karen Oliver<sup>2</sup>, Anders Bergström<sup>2</sup>, Paul Coupland<sup>2</sup>, [Jonas Warringer]<sup>3</sup>, [Marco Consentino Lagomarsino]<sup>4</sup>, [Gilles Fischer]<sup>4</sup>, [Richard Durbin]<sup>2</sup>, [Gianni Liti]<sup>1*</sup>
+[Jia-Xing Yue]<sup>1</sup>, Jing Li<sup>1</sup>, Louise Aigrain<sup>2</sup>, Johan Hallin<sup>1</sup>, Karl Persson<sup>3</sup>, Karen Oliver<sup>2</sup>, Anders Bergström<sup>2</sup>, Paul Coupland<sup>2</sup>, [Jonas Warringer]<sup>3</sup>, [Marco Cosentino Lagomarsino]<sup>4</sup>, [Gilles Fischer]<sup>4</sup>, [Richard Durbin]<sup>2</sup>, [Gianni Liti]<sup>1*</sup>
 
 **\*Corresponding author: Gianni Liti (gianni.liti@unice.fr)**
 
