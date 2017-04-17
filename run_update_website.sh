@@ -1,5 +1,5 @@
 git status
 git add -A
-git commit -am "webpage bug fix"
+git commit -am "update paper info"
 git push origin gh-pages
  
