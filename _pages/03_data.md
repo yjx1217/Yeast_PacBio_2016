@@ -91,7 +91,7 @@ Here, we provide all the assembly, annotation, CDSs, and proteome files as follo
 # Other Useful Data
 
 
-In addition, we updated the gene annotation for *Saccharomyces arboricolus* (strain H6) that was sequenced and annotated a few years ago (Liti et al. BMC Genomics, 2013).
+1) Re-annotation for *Saccharomyces arboricolus* (strain H6) that was sequenced and annotated a few years ago (Liti et al. BMC Genomics, 2013).
 {: .text-justify}
 
 |---
@@ -100,7 +100,10 @@ In addition, we updated the gene annotation for *Saccharomyces arboricolus* (str
 |*S.a.*|H6|[GENOME][97]|[GFF][98]|[CDS][99]|[PEP][100]
 |---
 
-We also provide the hidden Markov model (hmm) that we built for the yeast core X-element in case anyone is interested.
+2) The subtelomere annotation for all the 12 strains (GFF format).
+* [Subtelomere_GFF.zip][110]
+
+3) We also provide the hidden Markov model (hmm) that we built for the yeast core X-element in case anyone is interested.
 * [core_X.hmm][108]
 
 
@@ -234,3 +237,4 @@ The Illumina sequencing reads for this project has been deposed in the Short Rea
 [107]: {{ site.url }}{{ site.baseurl }}/data/Supplementary_Data_Sets/Supplementary_Data_Set_7.xlsx
 [108]: {{ site.url }}{{ site.baseurl }}/data/Supplementary_Data_Sets/Supplementary_Data_Set_8.hmm
 [109]: {{ site.url }}{{ site.baseurl }}/data/Supplementary_Data_Sets/PRJEB7245_strain_read_mapping.xlsx
+[110]: {{ site.url }}{{ site.baseurl }}/data/Supplementary_Data_Sets/Subtelomere_GFF.zip
