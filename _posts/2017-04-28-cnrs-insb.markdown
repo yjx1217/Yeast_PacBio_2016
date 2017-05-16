@@ -5,8 +5,8 @@ date:   2017-04-28 21:00:00 +0100
 categories: update
 ---
 
-Our work is highlighted by [CNRS - Institut des sciences biologiques (INSB)](http://www.cnrs.fr/insb/1.insb/missions.htm) today >>
-http://www.cnrs.fr/insb/recherche/parutions/articles2017/g-liti.html
+Our work is highlighted by [CNRS - Institut des sciences biologiques (INSB)](http://www.cnrs.fr/insb/1.insb/missions.htm) today:
+<http://www.cnrs.fr/insb/recherche/parutions/articles2017/g-liti.html>
 
 
 ![cnrs_insb]
