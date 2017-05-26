@@ -6,7 +6,7 @@ categories: update
 ---
 
 Our paper "**Contrasting evolutionary genome dynamics between domesticated and wild yeasts**" is officially out in [Nature Genetics](https://www.nature.com/ng/index.html) with open access! You can read the paper via the following link:
-<https://www.nature.com/ng/journal/vaop/ncurrent/full/ng.3847.html>
+<http://www.nature.com/ng/journal/v49/n6/full/ng.3847.html>
 {: .text-justify}
 
 
