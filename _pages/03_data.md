@@ -100,7 +100,7 @@ Here, we provide all the assembly, annotation, CDSs, and proteome files as follo
 |*S.a.*|H6|[GENOME][97]|[GFF][98]|[CDS][99]|[PEP][100]
 |---
 
-2) The subtelomere annotation for all the 12 strains (GFF format).
+2) The subtelomere annotation for all the 12 strains as well as the SGD reference (version R64-1-1) in GFF3 format.
 * [Subtelomere_GFF.zip][110]
 
 3) We also provide the hidden Markov model (hmm) that we built for the yeast core X-element in case anyone is interested.
