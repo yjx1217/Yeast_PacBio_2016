@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Population-level Yeast Reference Genomes
+title: The Yeast Population Reference Panel (YPRP)
 description: > # this means to ignore newlines until "baseurl:"
-  Population sequencing of 12 representative strains from two closely related
+  Population genome sequencing of 12 representative strains from two closely related
   yeast species using PacBio sequencing technology.
 baseurl: "/Yeast_PacBio_2016" # the subpath of your site, e.g. /blog
 url: "http://yjx1217.github.io" # the base hostname & protocol for your site

@@ -1,5 +1,5 @@
 git status
 git add -A
-git commit -am "add the software page with the introduction for LRSDAY"
+git commit -am "modify the website name"
 git push origin gh-pages
  
