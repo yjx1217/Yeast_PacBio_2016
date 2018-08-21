@@ -21,7 +21,7 @@ baseurl: "/Yeast_PacBio_2016" # the subpath of your site, e.g. /blog
 url: "http://yjx1217.github.io" # the base hostname & protocol for your site
 name: 'Jia-Xing Yue'
 # email: your-email@domain.com
-twitter_username: yjx1217
+twitter_username: iAmphioxus
 #github_username:  yjx1217
 
 # Build settings
@@ -41,6 +41,3 @@ include: ['_pages']
 # theme
 theme: minima
 
-# exclude
-#exclude:
-# - /Users/yjx/Sites/Yeast_PacBio_2016/data_20170315
