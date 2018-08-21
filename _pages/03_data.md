@@ -128,10 +128,10 @@ The PacBio sequencing reads for this project has been deposed in the European Nu
 The Illumina sequencing reads for this project has been deposed in the Short Reads Archive (SRA) under project [PRJNA340312](https://www.ncbi.nlm.nih.gov/bioproject/340312). 
 
 
-[1]: {{ site.url }}{{ site.baseurl }}/data/Nuclear_Genome/S288c.genome.fa.gz
-[2]: {{ site.url }}{{ site.baseurl }}/data/Nuclear_GFF/S288c.all_feature.gff.gz
-[3]: {{ site.url }}{{ site.baseurl }}/data/Nuclear_CDS/S288c.cds.fa.gz
-[4]: {{ site.url }}{{ site.baseurl }}/data/Nuclear_PEP/S288c.pep.fa.gz
+[1]: {{ site.url }}{{ site.baseurl }}/data/Nuclear_Genome/S288C.genome.fa.gz
+[2]: {{ site.url }}{{ site.baseurl }}/data/Nuclear_GFF/S288C.all_feature.gff.gz
+[3]: {{ site.url }}{{ site.baseurl }}/data/Nuclear_CDS/S288C.cds.fa.gz
+[4]: {{ site.url }}{{ site.baseurl }}/data/Nuclear_PEP/S288C.pep.fa.gz
 [5]: {{ site.url }}{{ site.baseurl }}/data/Nuclear_Genome/DBVPG6044.genome.fa.gz
 [6]: {{ site.url }}{{ site.baseurl }}/data/Nuclear_GFF/DBVPG6044.all_feature.gff.gz
 [7]: {{ site.url }}{{ site.baseurl }}/data/Nuclear_CDS/DBVPG6044.cds.fa.gz
@@ -176,10 +176,10 @@ The Illumina sequencing reads for this project has been deposed in the Short Rea
 [46]: {{ site.url }}{{ site.baseurl }}/data/Nuclear_GFF/UWOPS919171.all_feature.gff.gz
 [47]: {{ site.url }}{{ site.baseurl }}/data/Nuclear_CDS/UWOPS919171.cds.fa.gz
 [48]: {{ site.url }}{{ site.baseurl }}/data/Nuclear_PEP/UWOPS919171.pep.fa.gz
-[49]: {{ site.url }}{{ site.baseurl }}/data/Mitochondrial_Genome/S288c.mt.genome.fa.gz
-[50]: {{ site.url }}{{ site.baseurl }}/data/Mitochondrial_GFF/S288c.mt.all_feature.gff.gz
-[51]: {{ site.url }}{{ site.baseurl }}/data/Mitochondrial_CDS/S288c.mt.cds.fa.gz
-[52]: {{ site.url }}{{ site.baseurl }}/data/Mitochondrial_PEP/S288c.mt.pep.fa.gz
+[49]: {{ site.url }}{{ site.baseurl }}/data/Mitochondrial_Genome/S288C.mt.genome.fa.gz
+[50]: {{ site.url }}{{ site.baseurl }}/data/Mitochondrial_GFF/S288C.mt.all_feature.gff.gz
+[51]: {{ site.url }}{{ site.baseurl }}/data/Mitochondrial_CDS/S288C.mt.cds.fa.gz
+[52]: {{ site.url }}{{ site.baseurl }}/data/Mitochondrial_PEP/S288C.mt.pep.fa.gz
 [53]: {{ site.url }}{{ site.baseurl }}/data/Mitochondrial_Genome/DBVPG6044.mt.genome.fa.gz
 [54]: {{ site.url }}{{ site.baseurl }}/data/Mitochondrial_GFF/DBVPG6044.mt.all_feature.gff.gz
 [55]: {{ site.url }}{{ site.baseurl }}/data/Mitochondrial_CDS/DBVPG6044.mt.cds.fa.gz
