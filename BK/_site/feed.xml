@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yeast PacBio Sequencing Project</title>
+    <description>Population sequencing of 12 representative strains from two closely related species using PacBio sequencing technology.
+</description>
+    <link>http://localhost:4444/</link>
+    <atom:link href="http://localhost:4444/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 27 Aug 2016 11:12:39 +0200</pubDate>
+    <lastBuildDate>Sat, 27 Aug 2016 11:12:39 +0200</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Welcome!</title>
+        <description>&lt;p&gt;We are about to submit our manuscript on this project soon. Therefore we set up this website to provide general description and data release for this project. We feel the high-quality genome assemblies and annotations that we generated during this study will be of great interests to the yeast community. We want to share this valuable dataset for the community to facilitate future genomic and functional studies on &lt;em&gt;Saccharomyces cerevisiae&lt;/em&gt; and its wild relative &lt;em&gt;Saccharomyces paradoxus&lt;/em&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 24 Aug 2016 19:53:49 +0200</pubDate>
+        <link>http://localhost:4444/update/2016/08/24/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4444/update/2016/08/24/welcome-to-jekyll.html</guid>
+        
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
