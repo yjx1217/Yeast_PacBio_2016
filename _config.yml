@@ -40,3 +40,7 @@ include: ['_pages']
 
 # theme
 theme: minima
+
+# exclude
+#exclude:
+# - /Users/yjx/Sites/Yeast_PacBio_2016/data_20170315

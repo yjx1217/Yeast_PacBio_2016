@@ -7,11 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Data</title>
-  <meta name="description" content="Population sequencing of 12 representative strains from two closely related species using PacBio sequencing technology.">
+  <meta name="description" content="The end-to-end genome assemblies of 12 representative strains from two closely related yeast species based on PacBio sequencing technology.">
 
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4444/data/">
-  <link rel="alternate" type="application/rss+xml" title="Yeast PacBio Sequencing Project" href="http://localhost:4444/feed.xml">
+  <link rel="stylesheet" href="/Yeast_PacBio_2016/css/main.css">
+  <link rel="canonical" href="http://yjx1217.github.io/Yeast_PacBio_2016/data/">
+  <link rel="alternate" type="application/rss+xml" title="Yeast Population Reference Panel (YPRP)" href="http://yjx1217.github.io/Yeast_PacBio_2016/feed.xml">
 </head>
 
 
@@ -31,7 +31,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="/welcome">Yeast PacBio Sequencing Project</a>
+    <a class="site-title" href="/Yeast_PacBio_2016/welcome">Yeast Population Reference Panel (YPRP)</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -45,19 +45,23 @@
       <div class="trigger">
 	
 	
-	<a class="page-link" href="/welcome/">Welcome</a>
+	<a class="page-link" href="/Yeast_PacBio_2016/welcome/">Welcome</a>
 	
 	
 	
-	<a class="page-link" href="/project/">Project</a>
+	<a class="page-link" href="/Yeast_PacBio_2016/project/">Project</a>
 	
 	
 	
-	<a class="page-link" href="/data/">Data</a>
+	<a class="page-link" href="/Yeast_PacBio_2016/data/">Data</a>
 	
 	
 	
-	<a class="page-link" href="/contact/">Contact</a>
+	<a class="page-link" href="/Yeast_PacBio_2016/software/">Software</a>
+	
+	
+	
+	<a class="page-link" href="/Yeast_PacBio_2016/contact/">Contact</a>
 	
 	
 	
@@ -81,11 +85,21 @@
   </header>
 
   <div class="post-content">
-    <p>The genomes were sequenced by ~100-200x PacBio sequencing reads and assembled using standard HGAP pipeline with Quiver polishing. We also performed ~200-500x Illumina paired-end sequencing to further correct remaining sequencing errors by Pilon. After manual curation, the final assemblies reached chromsome-equivalent completeness for both nuclear and mitochondrial genomes. Based on each assembly, we conducted full-fledged annotation for various genomic features, such as centromeres, protein-coding genes, tRNAs, Ty retrotransposable elements, core X-elements, Y’-elements and mitochondrial RNAs.</p>
+    <p>[Last update: Thu Mar 16 06:17:38 CET 2017]</p>
 
-<p>Here, we provide all the assembly, annotation, CDSs, and proteome files as follows. The assembly, CDSs, and proteome files are in FASTA format. The annotation files are in GFF format. All files were further compressed using gzip. After downloading these files, you can use the command “gunzip *.gz” to uncompress these files.</p>
+<p class="text-justify"><strong>IMPORTANT:
+Minor improvements for the nuclear genome assemblies and annotations were performed on Sun Jan 29 22:04:59 CST 2017.
+The mitochondrial genome assemblies and annotations of <em>S. paradoxus</em> UFRJ50816 and UWOPS91-917.1 were updated on Thu Mar 16 06:17:38 CET 2017.
+If you have downloaded the corresponding data before our last update, please use the new data for your analysis.</strong></p>
 
-<p><br /><br /></p>
+<p><br /></p>
+
+<p class="text-justify">The genomes were sequenced by ~100-200x PacBio sequencing reads and assembled using standard HGAP pipeline with Quiver polishing. We also performed ~200-500x Illumina paired-end sequencing to further correct remaining sequencing errors by Pilon. After manual curation, the final assemblies reached chromsome-equivalent completeness for both nuclear and mitochondrial genomes. Based on each assembly, we conducted full-fledged annotation for various genomic features, such as centromeres, protein-coding genes, tRNAs, Ty retrotransposable elements, core X-elements, Y’-elements and mitochondrial RNA genes.</p>
+
+<p class="text-justify">Here, we provide all the assembly, annotation, CDSs, and proteome files as follows. The assembly, CDSs, and proteome files are in FASTA format. The annotation files are in GFF format. All files were further compressed using gzip. After downloading these files, you can use the command “gunzip *.gz” to uncompress these files.</p>
+
+<p><br /></p>
+
 <h1 id="nuclear-genomes">Nuclear Genomes</h1>
 
 <table>
@@ -102,121 +116,121 @@
   <tbody>
     <tr>
       <td style="text-align: center"><em>S.c.</em></td>
-      <td style="text-align: center">S288c</td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_Genome/S288c.genome.fa.gz">GENOME</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_GFF/S288c.all_feature.gff.gz">GFF</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_CDS/S288c.cds.fa.gz">CDS</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_PEP/S288c.pep.fa.gz">PEP</a></td>
+      <td style="text-align: center">S288C</td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_Genome/S288C.genome.fa.gz">GENOME</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_GFF/S288C.all_feature.gff.gz">GFF</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_CDS/S288C.cds.fa.gz">CDS</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_PEP/S288C.pep.fa.gz">PEP</a></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
       <td style="text-align: center"><em>S.c.</em></td>
       <td style="text-align: center">DBVPG6044</td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_Genome/DBVPG6044.genome.fa.gz">GENOME</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_GFF/DBVPG6044.all_feature.gff.gz">GFF</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_CDS/DBVPG6044.cds.fa.gz">CDS</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_PEP/DBVPG6044.pep.fa.gz">PEP</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_Genome/DBVPG6044.genome.fa.gz">GENOME</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_GFF/DBVPG6044.all_feature.gff.gz">GFF</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_CDS/DBVPG6044.cds.fa.gz">CDS</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_PEP/DBVPG6044.pep.fa.gz">PEP</a></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
       <td style="text-align: center"><em>S.c.</em></td>
       <td style="text-align: center">DBVPG6765</td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_Genome/DBVPG6765.genome.fa.gz">GENOME</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_GFF/DBVPG6765.all_feature.gff.gz">GFF</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_CDS/DBVPG6765.cds.fa.gz">CDS</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_PEP/DBVPG6765.pep.fa.gz">PEP</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_Genome/DBVPG6765.genome.fa.gz">GENOME</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_GFF/DBVPG6765.all_feature.gff.gz">GFF</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_CDS/DBVPG6765.cds.fa.gz">CDS</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_PEP/DBVPG6765.pep.fa.gz">PEP</a></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
       <td style="text-align: center"><em>S.c.</em></td>
       <td style="text-align: center">SK1</td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_Genome/SK1.genome.fa.gz">GENOME</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_GFF/SK1.all_feature.gff.gz">GFF</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_CDS/SK1.cds.fa.gz">CDS</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_PEP/SK1.pep.fa.gz">PEP</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_Genome/SK1.genome.fa.gz">GENOME</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_GFF/SK1.all_feature.gff.gz">GFF</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_CDS/SK1.cds.fa.gz">CDS</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_PEP/SK1.pep.fa.gz">PEP</a></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
       <td style="text-align: center"><em>S.c.</em></td>
       <td style="text-align: center">Y12</td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_Genome/Y12.genome.fa.gz">GENOME</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_GFF/Y12.all_feature.gff.gz">GFF</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_CDS/Y12.cds.fa.gz">CDS</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_PEP/Y12.pep.fa.gz">PEP</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_Genome/Y12.genome.fa.gz">GENOME</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_GFF/Y12.all_feature.gff.gz">GFF</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_CDS/Y12.cds.fa.gz">CDS</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_PEP/Y12.pep.fa.gz">PEP</a></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
       <td style="text-align: center"><em>S.c.</em></td>
       <td style="text-align: center">YPS128</td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_Genome/YPS128.genome.fa.gz">GENOME</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_GFF/YPS128.all_feature.gff.gz">GFF</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_CDS/YPS128.cds.fa.gz">CDS</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_PEP/YPS128.pep.fa.gz">PEP</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_Genome/YPS128.genome.fa.gz">GENOME</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_GFF/YPS128.all_feature.gff.gz">GFF</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_CDS/YPS128.cds.fa.gz">CDS</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_PEP/YPS128.pep.fa.gz">PEP</a></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
       <td style="text-align: center"><em>S.c.</em></td>
       <td style="text-align: center">UWOPS03-461.4</td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_Genome/UWOPS034614.genome.fa.gz">GENOME</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_GFF/UWOPS034614.all_feature.gff.gz">GFF</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_CDS/UWOPS034614.cds.fa.gz">CDS</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_PEP/UWOPS034614.pep.fa.gz">PEP</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_Genome/UWOPS034614.genome.fa.gz">GENOME</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_GFF/UWOPS034614.all_feature.gff.gz">GFF</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_CDS/UWOPS034614.cds.fa.gz">CDS</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_PEP/UWOPS034614.pep.fa.gz">PEP</a></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td style="text-align: center"><em>S.c.</em></td>
+      <td style="text-align: center"><em>S.p.</em></td>
       <td style="text-align: center">CBS432</td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_Genome/CBS432.genome.fa.gz">GENOME</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_GFF/CBS432.all_feature.gff.gz">GFF</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_CDS/CBS432.cds.fa.gz">CDS</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_PEP/CBS432.pep.fa.gz">PEP</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_Genome/CBS432.genome.fa.gz">GENOME</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_GFF/CBS432.all_feature.gff.gz">GFF</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_CDS/CBS432.cds.fa.gz">CDS</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_PEP/CBS432.pep.fa.gz">PEP</a></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td style="text-align: center"><em>S.c.</em></td>
+      <td style="text-align: center"><em>S.p.</em></td>
       <td style="text-align: center">N44</td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_Genome/N44.genome.fa.gz">GENOME</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_GFF/N44.all_feature.gff.gz">GFF</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_CDS/N44.cds.fa.gz">CDS</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_PEP/N44.pep.fa.gz">PEP</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_Genome/N44.genome.fa.gz">GENOME</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_GFF/N44.all_feature.gff.gz">GFF</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_CDS/N44.cds.fa.gz">CDS</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_PEP/N44.pep.fa.gz">PEP</a></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td style="text-align: center"><em>S.c.</em></td>
+      <td style="text-align: center"><em>S.p.</em></td>
       <td style="text-align: center">YPS138</td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_Genome/YPS138.genome.fa.gz">GENOME</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_GFF/YPS138.all_feature.gff.gz">GFF</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_CDS/YPS138.cds.fa.gz">CDS</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_PEP/YPS138.pep.fa.gz">PEP</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_Genome/YPS138.genome.fa.gz">GENOME</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_GFF/YPS138.all_feature.gff.gz">GFF</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_CDS/YPS138.cds.fa.gz">CDS</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_PEP/YPS138.pep.fa.gz">PEP</a></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td style="text-align: center"><em>S.c.</em></td>
+      <td style="text-align: center"><em>S.p.</em></td>
       <td style="text-align: center">UFRJ50816</td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_Genome/UFRJ50816.genome.fa.gz">GENOME</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_GFF/UFRJ50816.all_feature.gff.gz">GFF</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_CDS/UFRJ50816.cds.fa.gz">CDS</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_PEP/UFRJ50816.pep.fa.gz">PEP</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_Genome/UFRJ50816.genome.fa.gz">GENOME</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_GFF/UFRJ50816.all_feature.gff.gz">GFF</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_CDS/UFRJ50816.cds.fa.gz">CDS</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_PEP/UFRJ50816.pep.fa.gz">PEP</a></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td style="text-align: center"><em>S.c.</em></td>
+      <td style="text-align: center"><em>S.p.</em></td>
       <td style="text-align: center">UWOPS91-917.1</td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_Genome/UWOPS919171.genome.fa.gz">GENOME</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_GFF/UWOPS919171.all_feature.gff.gz">GFF</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_CDS/UWOPS919171.cds.fa.gz">CDS</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Nuclear_PEP/UWOPS919171.pep.fa.gz">PEP</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_Genome/UWOPS919171.genome.fa.gz">GENOME</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_GFF/UWOPS919171.all_feature.gff.gz">GFF</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_CDS/UWOPS919171.cds.fa.gz">CDS</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Nuclear_PEP/UWOPS919171.pep.fa.gz">PEP</a></td>
     </tr>
   </tbody>
 </table>
@@ -239,124 +253,184 @@
   <tbody>
     <tr>
       <td style="text-align: center"><em>S.c.</em></td>
-      <td style="text-align: center">S288c</td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_Genome/S288c.mt.genome.fa.gz">GENOME</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_GFF/S288c.mt.all_feature.gff.gz">GFF</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_CDS/S288c.mt.cds.fa.gz">CDS</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_PEP/S288c.mt.pep.fa.gz">PEP</a></td>
+      <td style="text-align: center">S288C</td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_Genome/S288C.mt.genome.fa.gz">GENOME</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_GFF/S288C.mt.all_feature.gff.gz">GFF</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_CDS/S288C.mt.cds.fa.gz">CDS</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_PEP/S288C.mt.pep.fa.gz">PEP</a></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
       <td style="text-align: center"><em>S.c.</em></td>
       <td style="text-align: center">DBVPG6044</td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_Genome/DBVPG6044.mt.genome.fa.gz">GENOME</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_GFF/DBVPG6044.mt.all_feature.gff.gz">GFF</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_CDS/DBVPG6044.mt.cds.fa.gz">CDS</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_PEP/DBVPG6044.mt.pep.fa.gz">PEP</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_Genome/DBVPG6044.mt.genome.fa.gz">GENOME</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_GFF/DBVPG6044.mt.all_feature.gff.gz">GFF</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_CDS/DBVPG6044.mt.cds.fa.gz">CDS</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_PEP/DBVPG6044.mt.pep.fa.gz">PEP</a></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
       <td style="text-align: center"><em>S.c.</em></td>
       <td style="text-align: center">DBVPG6765</td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_Genome/DBVPG6765.mt.genome.fa.gz">GENOME</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_GFF/DBVPG6765.mt.all_feature.gff.gz">GFF</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_CDS/DBVPG6765.mt.cds.fa.gz">CDS</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_PEP/DBVPG6765.mt.pep.fa.gz">PEP</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_Genome/DBVPG6765.mt.genome.fa.gz">GENOME</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_GFF/DBVPG6765.mt.all_feature.gff.gz">GFF</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_CDS/DBVPG6765.mt.cds.fa.gz">CDS</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_PEP/DBVPG6765.mt.pep.fa.gz">PEP</a></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
       <td style="text-align: center"><em>S.c.</em></td>
       <td style="text-align: center">SK1</td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_Genome/SK1.mt.genome.fa.gz">GENOME</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_GFF/SK1.mt.all_feature.gff.gz">GFF</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_CDS/SK1.mt.cds.fa.gz">CDS</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_PEP/SK1.mt.pep.fa.gz">PEP</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_Genome/SK1.mt.genome.fa.gz">GENOME</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_GFF/SK1.mt.all_feature.gff.gz">GFF</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_CDS/SK1.mt.cds.fa.gz">CDS</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_PEP/SK1.mt.pep.fa.gz">PEP</a></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
       <td style="text-align: center"><em>S.c.</em></td>
       <td style="text-align: center">Y12</td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_Genome/Y12.mt.genome.fa.gz">GENOME</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_GFF/Y12.mt.all_feature.gff.gz">GFF</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_CDS/Y12.mt.cds.fa.gz">CDS</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_PEP/Y12.mt.pep.fa.gz">PEP</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_Genome/Y12.mt.genome.fa.gz">GENOME</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_GFF/Y12.mt.all_feature.gff.gz">GFF</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_CDS/Y12.mt.cds.fa.gz">CDS</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_PEP/Y12.mt.pep.fa.gz">PEP</a></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
       <td style="text-align: center"><em>S.c.</em></td>
       <td style="text-align: center">YPS128</td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_Genome/YPS128.mt.genome.fa.gz">GENOME</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_GFF/YPS128.mt.all_feature.gff.gz">GFF</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_CDS/YPS128.mt.cds.fa.gz">CDS</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_PEP/YPS128.mt.pep.fa.gz">PEP</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_Genome/YPS128.mt.genome.fa.gz">GENOME</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_GFF/YPS128.mt.all_feature.gff.gz">GFF</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_CDS/YPS128.mt.cds.fa.gz">CDS</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_PEP/YPS128.mt.pep.fa.gz">PEP</a></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
       <td style="text-align: center"><em>S.c.</em></td>
       <td style="text-align: center">UWOPS03-461.4</td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_Genome/UWOPS034614.mt.genome.fa.gz">GENOME</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_GFF/UWOPS034614.mt.all_feature.gff.gz">GFF</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_CDS/UWOPS034614.mt.cds.fa.gz">CDS</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_PEP/UWOPS034614.mt.pep.fa.gz">PEP</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_Genome/UWOPS034614.mt.genome.fa.gz">GENOME</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_GFF/UWOPS034614.mt.all_feature.gff.gz">GFF</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_CDS/UWOPS034614.mt.cds.fa.gz">CDS</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_PEP/UWOPS034614.mt.pep.fa.gz">PEP</a></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td style="text-align: center"><em>S.c.</em></td>
+      <td style="text-align: center"><em>S.p.</em></td>
       <td style="text-align: center">CBS432</td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_Genome/CBS432.mt.genome.fa.gz">GENOME</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_GFF/CBS432.mt.all_feature.gff.gz">GFF</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_CDS/CBS432.mt.cds.fa.gz">CDS</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_PEP/CBS432.mt.pep.fa.gz">PEP</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_Genome/CBS432.mt.genome.fa.gz">GENOME</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_GFF/CBS432.mt.all_feature.gff.gz">GFF</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_CDS/CBS432.mt.cds.fa.gz">CDS</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_PEP/CBS432.mt.pep.fa.gz">PEP</a></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td style="text-align: center"><em>S.c.</em></td>
+      <td style="text-align: center"><em>S.p.</em></td>
       <td style="text-align: center">N44</td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_Genome/N44.mt.genome.fa.gz">GENOME</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_GFF/N44.mt.all_feature.gff.gz">GFF</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_CDS/N44.mt.cds.fa.gz">CDS</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_PEP/N44.mt.pep.fa.gz">PEP</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_Genome/N44.mt.genome.fa.gz">GENOME</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_GFF/N44.mt.all_feature.gff.gz">GFF</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_CDS/N44.mt.cds.fa.gz">CDS</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_PEP/N44.mt.pep.fa.gz">PEP</a></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td style="text-align: center"><em>S.c.</em></td>
+      <td style="text-align: center"><em>S.p.</em></td>
       <td style="text-align: center">YPS138</td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_Genome/YPS138.mt.genome.fa.gz">GENOME</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_GFF/YPS138.mt.all_feature.gff.gz">GFF</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_CDS/YPS138.mt.cds.fa.gz">CDS</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_PEP/YPS138.mt.pep.fa.gz">PEP</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_Genome/YPS138.mt.genome.fa.gz">GENOME</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_GFF/YPS138.mt.all_feature.gff.gz">GFF</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_CDS/YPS138.mt.cds.fa.gz">CDS</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_PEP/YPS138.mt.pep.fa.gz">PEP</a></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td style="text-align: center"><em>S.c.</em></td>
+      <td style="text-align: center"><em>S.p.</em></td>
       <td style="text-align: center">UFRJ50816</td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_Genome/UFRJ50816.mt.genome.fa.gz">GENOME</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_GFF/UFRJ50816.mt.all_feature.gff.gz">GFF</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_CDS/UFRJ50816.mt.cds.fa.gz">CDS</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_PEP/UFRJ50816.mt.pep.fa.gz">PEP</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_Genome/UFRJ50816.mt.genome.fa.gz">GENOME</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_GFF/UFRJ50816.mt.all_feature.gff.gz">GFF</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_CDS/UFRJ50816.mt.cds.fa.gz">CDS</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_PEP/UFRJ50816.mt.pep.fa.gz">PEP</a></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td style="text-align: center"><em>S.c.</em></td>
+      <td style="text-align: center"><em>S.p.</em></td>
       <td style="text-align: center">UWOPS91-917.1</td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_Genome/UWOPS919171.mt.genome.fa.gz">GENOME</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_GFF/UWOPS919171.mt.all_feature.gff.gz">GFF</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_CDS/UWOPS919171.mt.cds.fa.gz">CDS</a></td>
-      <td style="text-align: center"><a href="http://localhost:4444/data/Mitochondrial_PEP/UWOPS919171.mt.pep.fa.gz">PEP</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_Genome/UWOPS919171.mt.genome.fa.gz">GENOME</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_GFF/UWOPS919171.mt.all_feature.gff.gz">GFF</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_CDS/UWOPS919171.mt.cds.fa.gz">CDS</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Mitochondrial_PEP/UWOPS919171.mt.pep.fa.gz">PEP</a></td>
     </tr>
   </tbody>
 </table>
+
+<p><br /><br /></p>
+
+<h1 id="other-useful-data">Other Useful Data</h1>
+
+<p class="text-justify">1) Re-annotation for <em>Saccharomyces arboricolus</em> (strain H6) that was sequenced and annotated a few years ago (Liti et al. BMC Genomics, 2013).</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Species</th>
+      <th style="text-align: center">Strain</th>
+      <th style="text-align: center">Assembly</th>
+      <th style="text-align: center">Annotation</th>
+      <th style="text-align: center">CDSs</th>
+      <th style="text-align: center">Proteome</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><em>S.a.</em></td>
+      <td style="text-align: center">H6</td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Sarb_ReAnnotation/Sarb.genome.fa.gz">GENOME</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Sarb_ReAnnotation/Sarb.protein_coding_gene.gff.gz">GFF</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Sarb_ReAnnotation/Sarb.cds.fa.gz">CDS</a></td>
+      <td style="text-align: center"><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Sarb_ReAnnotation/Sarb.pep.fa.gz">PEP</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>2) The subtelomere annotation for all the 12 strains as well as the SGD reference (version R64-1-1) in GFF3 format.</p>
+<ul>
+  <li><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Supplementary_Data_Sets/Subtelomere_GFF.zip">Subtelomere_GFF.zip</a></li>
+</ul>
+
+<p>3) We also provide the hidden Markov model (hmm) that we built for the yeast core X-element in case anyone is interested.</p>
+<ul>
+  <li><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Supplementary_Data_Sets/Supplementary_Data_Set_8.hmm">core_X.hmm</a></li>
+</ul>
+
+<p><br /></p>
+
+<p>Finally, we further hosted all the supplementary data sets generated in this study for the public.</p>
+
+<ul>
+  <li><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Supplementary_Data_Sets/Supplementary_Data_Set_1.tsv">Supplementary Data Set 1</a>: One-to-one nuclear orthologous gene groups across the 12 strains and the six outgroups.</li>
+  <li><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Supplementary_Data_Sets/Supplementary_Data_Set_2.xlsx">Supplementary Data Set 2</a>: Genomic coordinates for subtelomeres identified in the 12 strains.</li>
+  <li><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Supplementary_Data_Sets/Supplementary_Data_Set_3.xlsx">Supplementary Data Set 3</a>: Genomic features enclosed in subtelomeres and chromosome-ends.</li>
+  <li><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Supplementary_Data_Sets/Supplementary_Data_Set_4.xlsx">Supplementary Data Set 4</a>: Balanced rearrangement events identified in the 12 strains.</li>
+  <li><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Supplementary_Data_Sets/Supplementary_Data_Set_5.xlsx">Supplementary Data Set 5</a>: Unbalanced rearrangement events identified in the 12 strains.</li>
+  <li><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Supplementary_Data_Sets/Supplementary_Data_Set_6.xlsx">Supplementary Data Set 6</a>: Subtelomeric duplication blocks identified in the 12 strains.</li>
+  <li><a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Supplementary_Data_Sets/Supplementary_Data_Set_7.xlsx">Supplementary Data Set 7</a>: Strain-sharing patterns of duplicated subtelomere pairs.</li>
+</ul>
+
+<p><br /></p>
+
+<h1 id="raw-reads-accession">Raw Reads Accession</h1>
+
+<p>The PacBio sequencing reads for this project has been deposed in the European Nucleotide Archive (ENA) under project <a href="http://www.ebi.ac.uk/ena/data/view/PRJEB7245">PRJEB7245</a>. The strain to read mapping information is provided <a href="http://yjx1217.github.io/Yeast_PacBio_2016/data/Supplementary_Data_Sets/PRJEB7245_strain_read_mapping.xlsx">here</a>.
+The Illumina sequencing reads for this project has been deposed in the Short Reads Archive (SRA) under project <a href="https://www.ncbi.nlm.nih.gov/bioproject/340312">PRJNA340312</a>.</p>
 
 
   </div>
@@ -370,12 +444,12 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">Yeast PacBio Sequencing Project</h2>
+    <h2 class="footer-heading">Yeast Population Reference Panel (YPRP)</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
 	<ul class="contact-list">
-	  <li>&copy; 2016 Jia-Xing Yue. </li>
+	  <li>&copy; 2018 Jia-Xing Yue. </li>
 	  <li> Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</li>
 	  <li><a href="mailto:"></a></li>
 	</ul>
@@ -387,7 +461,7 @@
 
 	  
 	  <li>
-	    <a href="https://twitter.com/yjx1217"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+	    <a href="https://twitter.com/yjx1217"><span class="icon icon--twitter"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
 </span><span class="username">yjx1217</span></a>
 
 	  </li>
@@ -396,7 +470,7 @@
       </div>
 
       <div class="footer-col footer-col-3">
-	<p>Population sequencing of 12 representative strains from two closely related species using PacBio sequencing technology.
+	<p>The end-to-end genome assemblies of 12 representative strains from two closely related yeast species based on PacBio sequencing technology.
 </p>
       </div>
     </div>

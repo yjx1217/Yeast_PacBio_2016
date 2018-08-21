@@ -2,7 +2,7 @@
 use warnings;
 use strict;
 
-my @strain = qw(S288c DBVPG6044 DBVPG6765 SK1 Y12 YPS128 UWOPS03-461.4 CBS432 N44 YPS138 UFRJ50816 UWOPS919171);
+my @strain = qw(S288C DBVPG6044 DBVPG6765 SK1 Y12 YPS128 UWOPS03-461.4 CBS432 N44 YPS138 UFRJ50816 UWOPS919171);
 
 print "|---\n";
 print "|Species|Strain|Assembly|Annotation|CDSs|Proteome\n";

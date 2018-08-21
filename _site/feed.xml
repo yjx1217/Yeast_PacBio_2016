@@ -1,23 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yeast PacBio Sequencing Project</title>
-    <description>Population sequencing of 12 representative strains from two closely related species using PacBio sequencing technology.
+    <title>Yeast Population Reference Panel (YPRP)</title>
+    <description>The end-to-end genome assemblies of 12 representative strains from two closely related yeast species based on PacBio sequencing technology.
 </description>
-    <link>http://localhost:4444/</link>
-    <atom:link href="http://localhost:4444/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 27 Aug 2016 11:12:39 +0200</pubDate>
-    <lastBuildDate>Sat, 27 Aug 2016 11:12:39 +0200</lastBuildDate>
+    <link>http://yjx1217.github.io/Yeast_PacBio_2016/</link>
+    <atom:link href="http://yjx1217.github.io/Yeast_PacBio_2016/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 21 Aug 2018 23:01:16 +0200</pubDate>
+    <lastBuildDate>Tue, 21 Aug 2018 23:01:16 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>Welcome!</title>
-        <description>&lt;p&gt;We are about to submit our manuscript on this project soon. Therefore we set up this website to provide general description and data release for this project. We feel the high-quality genome assemblies and annotations that we generated during this study will be of great interests to the yeast community. We want to share this valuable dataset for the community to facilitate future genomic and functional studies on &lt;em&gt;Saccharomyces cerevisiae&lt;/em&gt; and its wild relative &lt;em&gt;Saccharomyces paradoxus&lt;/em&gt;.&lt;/p&gt;
+        <title>Our assembly &amp; annotation software LRSDAY got published!</title>
+        <description>&lt;p&gt;The long-read-based yeast genome assembly and annotation software LRSDAY is officially out in &lt;a href=&quot;https://www.nature.com/nprot/&quot;&gt;Nature Protocols&lt;/a&gt;!&lt;br /&gt;
+You can read the paper via this link: &lt;a href=&quot;https://www.nature.com/articles/nprot.2018.025&quot;&gt;https://www.nature.com/articles/nprot.2018.025&lt;/a&gt;&lt;br /&gt;
+The software is hosted at GitHub: &lt;a href=&quot;https://github.com/yjx1217/LRSDAY&quot;&gt;https://github.com/yjx1217/LRSDAY&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://yjx1217.github.io/Yeast_PacBio_2016/media_coverage/NatureProtocols_article.png&quot; alt=&quot;nature_protocols&quot; /&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Wed, 24 Aug 2016 19:53:49 +0200</pubDate>
-        <link>http://localhost:4444/update/2016/08/24/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4444/update/2016/08/24/welcome-to-jekyll.html</guid>
+        <pubDate>Thu, 03 May 2018 22:00:00 +0200</pubDate>
+        <link>http://yjx1217.github.io/Yeast_PacBio_2016/update/2018/05/03/protocols-published.html</link>
+        <guid isPermaLink="true">http://yjx1217.github.io/Yeast_PacBio_2016/update/2018/05/03/protocols-published.html</guid>
+        
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Nice Matin reported our work!</title>
+        <description>&lt;p&gt;Our work is highlighted by the regional newspaper &lt;a href=&quot;http://www.nicematin.com/&quot;&gt;Nice Matin&lt;/a&gt; today!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://yjx1217.github.io/Yeast_PacBio_2016/media_coverage/NiceMatin_PrintVersion_02.jpg&quot; alt=&quot;nice_matin&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 14 May 2017 22:00:00 +0200</pubDate>
+        <link>http://yjx1217.github.io/Yeast_PacBio_2016/update/2017/05/14/nice-matin.html</link>
+        <guid isPermaLink="true">http://yjx1217.github.io/Yeast_PacBio_2016/update/2017/05/14/nice-matin.html</guid>
+        
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>CNRS INSB hilighted our work!</title>
+        <description>&lt;p&gt;Our work is highlighted by &lt;a href=&quot;http://www.cnrs.fr/insb/1.insb/missions.htm&quot;&gt;CNRS - Institut des sciences biologiques (INSB)&lt;/a&gt; today:
+&lt;a href=&quot;http://www.cnrs.fr/insb/recherche/parutions/articles2017/g-liti.html&quot;&gt;http://www.cnrs.fr/insb/recherche/parutions/articles2017/g-liti.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://yjx1217.github.io/Yeast_PacBio_2016/media_coverage/CNRS_INSB.png&quot; alt=&quot;cnrs_insb&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 28 Apr 2017 22:00:00 +0200</pubDate>
+        <link>http://yjx1217.github.io/Yeast_PacBio_2016/update/2017/04/28/cnrs-insb.html</link>
+        <guid isPermaLink="true">http://yjx1217.github.io/Yeast_PacBio_2016/update/2017/04/28/cnrs-insb.html</guid>
+        
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Paper Published!</title>
+        <description>&lt;p class=&quot;text-justify&quot;&gt;Our paper “&lt;strong&gt;Contrasting evolutionary genome dynamics between domesticated and wild yeasts&lt;/strong&gt;” is officially out in &lt;a href=&quot;https://www.nature.com/ng/index.html&quot;&gt;Nature Genetics&lt;/a&gt; with open access! You can read the paper via the following link:
+&lt;a href=&quot;http://www.nature.com/ng/journal/v49/n6/full/ng.3847.html&quot;&gt;http://www.nature.com/ng/journal/v49/n6/full/ng.3847.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://yjx1217.github.io/Yeast_PacBio_2016/media_coverage/NatureGenetics_article.png&quot; alt=&quot;nature_genetics&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 17 Apr 2017 22:00:00 +0200</pubDate>
+        <link>http://yjx1217.github.io/Yeast_PacBio_2016/update/2017/04/17/paper-published.html</link>
+        <guid isPermaLink="true">http://yjx1217.github.io/Yeast_PacBio_2016/update/2017/04/17/paper-published.html</guid>
+        
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Data update</title>
+        <description>&lt;p class=&quot;text-justify&quot;&gt;Please note that the mitochondrial genome assemblies and annotations of &lt;em&gt;S. paradoxus&lt;/em&gt; UFRJ50816 and UWOPS91-917.1 were updated on Thu Mar 16 06:17:38 CET 2017. If you have downloaded the corresponding data before this update, please use the new data for your analysis.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 16 Mar 2017 06:30:00 +0100</pubDate>
+        <link>http://yjx1217.github.io/Yeast_PacBio_2016/update/2017/03/16/data-update.html</link>
+        <guid isPermaLink="true">http://yjx1217.github.io/Yeast_PacBio_2016/update/2017/03/16/data-update.html</guid>
+        
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Data update</title>
+        <description>&lt;p class=&quot;text-justify&quot;&gt;Please note that we made minor improvements for both the assembly and annotation data today. If you have downloaded the corresponding data before this update, please use the new data for your analysis.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 29 Jan 2017 16:14:00 +0100</pubDate>
+        <link>http://yjx1217.github.io/Yeast_PacBio_2016/update/2017/01/29/data-update.html</link>
+        <guid isPermaLink="true">http://yjx1217.github.io/Yeast_PacBio_2016/update/2017/01/29/data-update.html</guid>
+        
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome!</title>
+        <description>&lt;p class=&quot;text-justify&quot;&gt;We set up this website to provide general description and data release for the Yeast PacBio Sequencing project. In this project, we sequenced 12 strains representing major subpopulations of two close-related &lt;em&gt;Saccharomyces&lt;/em&gt; yeast species: &lt;em&gt;S. cerevisiae&lt;/em&gt; and &lt;em&gt;S. paradoxus&lt;/em&gt;. We feel the high-quality genome assemblies and annotations that we generated in this study will be of great interests to the yeast community. We want to share this valuable dataset to the community to facilitate future genomic and functional investigations on this important model organisms. The preprint of this work can be found &lt;a href=&quot;http://biorxiv.org/content/early/2016/09/24/076562&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 24 Sep 2016 14:07:00 +0200</pubDate>
+        <link>http://yjx1217.github.io/Yeast_PacBio_2016/update/2016/09/24/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://yjx1217.github.io/Yeast_PacBio_2016/update/2016/09/24/welcome-to-jekyll.html</guid>
         
         
         <category>update</category>
