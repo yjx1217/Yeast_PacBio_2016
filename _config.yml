@@ -22,7 +22,7 @@ url: "http://yjx1217.github.io" # the base hostname & protocol for your site
 name: 'Jia-Xing Yue'
 # email: your-email@domain.com
 twitter_username: iAmphioxus
-#github_username:  yjx1217
+github_username:  yjx1217
 
 # Build settings
 port: 4444
