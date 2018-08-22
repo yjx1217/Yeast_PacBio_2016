@@ -1,7 +1,0 @@
-#for s in S288c DBVPG6044 DBVPG6765 SK1 Y12 YPS128 UWOPS034614 CBS432 N44 YPS138 UFRJ50816 UWOPS919171
-#do
-s="Sarb"
-perl GFF3_to_CDS_alternative.pl -r $s.genome.fa.gz -g $s.all_feature.gff.gz -o $s.cds.fa.gz
-perl cds2protein_2016.pl -i $s.cds.fa.gz -o $s.pep.fa.gz
-
-#done
